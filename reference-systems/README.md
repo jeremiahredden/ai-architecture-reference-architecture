@@ -1,0 +1,33 @@
+# Reference Systems
+
+## What this folder is
+
+End-to-end worked reference architectures. The material here is what I put in front of a team when the question is: *we have read the pattern catalogue and the model strategy and the data architecture and the guardrail placement — now show us one that actually composes into a coherent system that we could ship.* Each document in this folder is one system, designed in detail, with pattern selections justified, data flow drawn, integration shape specified, costs estimated, guardrails placed, and the engineering and security implications named.
+
+## The organizing principle
+
+Pattern catalogues are vocabulary. Reference systems are sentences. A team can read every pattern document in this repo and still not have an answer to *"what does our system look like?"* — the value of a reference system is showing how the patterns compose under the real-world constraints of a specific workload (regulatory posture, latency budget, cost target, integration with existing systems, on-call practice, model strategy).
+
+So the systems here are deliberately specific. Each is sized to a *specific Meridian Health workload* (see the [Meridian Health convention](../README.md#) noted across the sibling reference repos), with concrete pattern choices, concrete sizing, concrete owners, concrete tracking IDs, and concrete sprint sequencing. They are written as if they were the architecture review document for a real project, because that is the form a reference is most useful in.
+
+The folder favors *fewer-but-deeper* systems over many shallow ones. One full reference architecture that takes 4,000 words to do well is more useful than five 800-word vignettes. Each system here will exceed multi-thousand words; each will be opinionated about its non-functional trade-offs; each will name the patterns that were considered and not chosen.
+
+## Planned documents
+
+- **[meridian-care-coordinator.md](./meridian-care-coordinator.md)** — Full reference architecture for the Meridian Care Coordinator clinical agent: a regulated-healthcare agent that helps clinical staff coordinate patient care across the platform, with integrations to the patient EHR, the clinical guidelines corpus, the scheduling system, and the messaging system. Pattern selections (supervisor / worker agent topology, hybrid RAG over clinical guidelines, tier-routed model strategy with Opus-class for clinical reasoning and Haiku-class for orchestration), data architecture (per-tenant pgvector with mandatory filter, knowledge-graph augmentation for drug interactions, lineage tracking for every claim), integration architecture (streaming for clinician chat, async for bulk operations, human-in-the-loop for any order entry), multi-tenancy (per-hospital tenant isolation across all layers), guardrail placement (AI gateway with PHI filter, tool-call authorization for any write operation, retrieval scope enforcement), cost architecture (~$0.18 per coordinator interaction at target scale, with caching and routing levers identified), and the sprint sequencing that takes the system from prototype to GA. Cross-links to the sibling AI-security repo's existing Care Coordinator threat model, and to the engineering sibling's eval and observability content. Includes 20 sprint-assigned ARCH-CARE findings.
+- **patient-api-ai-assist.md** *(coming)* — Reference architecture for the patient-facing AI assist on the Meridian patient API: lower-risk than the clinical agent (no clinical decision support, no order entry, narrow-scope question answering and form-filling assistance), but operating at much higher request volume. Different pattern selection (single-LLM-call with structured output for most interactions, RAG over patient-education content, no agent loop), different cost profile (cents per interaction at much higher volume), different latency profile (sub-2-second target for chat), different multi-tenancy posture (hospital-tenant isolation but with shared base resources).
+- **analytics-warehouse-copilot.md** *(coming)* — Reference architecture for a natural-language-to-SQL copilot over the Meridian de-identified analytics warehouse. Different problem shape: structured retrieval (table schema, sample rows, query history), constrained code generation, execution sandbox with row-count and runtime limits, and the human-in-the-loop discipline for any query that would touch potentially-reidentifiable joins. Pattern selections (single-call with deep structured output, no agent loop unless query plan needs revision), data architecture (semantic layer + schema cache + query-history cache as the retrieval surface), and the guardrail architecture that prevents the copilot from being a re-identification side-channel.
+- **adoption-sequencing-across-systems.md** *(coming)* — The cross-system sequencing question: a healthcare SaaS like Meridian is more likely to land these three systems in the right order (analytics copilot first as low-risk pilot → patient API assist second as medium-risk volume play → Care Coordinator third as high-risk capability) than to land them in parallel. The platform-investment graph (AI gateway, eval platform, model catalogue, observability) that pays back across all three.
+
+## How to use this section
+
+**If you are an architect or staff engineer scoping an AI initiative**, read the reference system that most resembles your workload first. The Care Coordinator architecture is the showcase and the most complex; if your problem is simpler, the patient-API assist or analytics copilot may be the closer fit.
+
+**If you are an engineering leader evaluating "what does this actually look like" before approving an AI investment**, the reference systems are designed to answer that question concretely. Each names a sizing target, a per-interaction cost, a launch sequencing, and a team shape.
+
+**If you are an AI architect evaluating patterns from elsewhere in this repo against a real workload**, the reference systems are the integration test — they show which patterns compose well and which run into friction when they meet other patterns.
+
+## What this section is not
+
+- **A real-customer disclosure.** Meridian Health is a fictional client used across all three sibling reference architecture repos for portfolio coherence. The patterns are drawn from real systems; the worked examples are anonymized and recomposed.
+- **A green-field-only design study.** Every reference system here assumes a real existing stack to integrate with, real existing on-call practice, real existing data estate. That is the only useful kind of reference for practitioners who never get to design in a vacuum.
