@@ -730,8 +730,8 @@ For a team designing or reviewing build-vs-buy choices, in order:
 - [frontier-vs-open-weights-vs-fine-tune.md](./frontier-vs-open-weights-vs-fine-tune.md) — foundational decision; build-vs-buy decision sits on top.
 - [model-routing-and-tiering.md](./model-routing-and-tiering.md) — routing layer that enables per-workload selection.
 - [model-catalogue-and-registry.md](./model-catalogue-and-registry.md) — catalogue tracks every option per workload.
-- [model-migration-playbook.md](./model-migration-playbook.md) *(coming)* — migration mechanics for the escape paths.
-- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) *(coming)* — non-functional comparison.
+- [model-migration-playbook.md](./model-migration-playbook.md) — migration mechanics for the escape paths.
+- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) — non-functional comparison.
 
 **Elsewhere in this repo.**
 - [multi-tenancy-and-isolation/per-tenant-fine-tuning.md](../multi-tenancy-and-isolation/per-tenant-fine-tuning.md) — the extreme case of build (per-tenant fine-tune).

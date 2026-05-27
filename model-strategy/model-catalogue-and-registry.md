@@ -790,8 +790,8 @@ For a team adopting a model catalogue, in order:
 - [frontier-vs-open-weights-vs-fine-tune.md](./frontier-vs-open-weights-vs-fine-tune.md) — foundational decision; what models go in the catalogue.
 - [model-routing-and-tiering.md](./model-routing-and-tiering.md) — routing patterns that reference catalogue entries.
 - [build-vs-buy-decision.md](./build-vs-buy-decision.md) — companion; the build decisions land in the catalogue.
-- [model-migration-playbook.md](./model-migration-playbook.md) *(coming)* — migration tracking uses catalogue lifecycle fields.
-- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) *(coming)* — comparison framework; catalogue captures the data.
+- [model-migration-playbook.md](./model-migration-playbook.md) — migration tracking uses catalogue lifecycle fields.
+- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) — comparison framework; catalogue captures the data.
 
 **Elsewhere in this repo.**
 - [multi-tenancy-and-isolation/per-tenant-fine-tuning.md](../multi-tenancy-and-isolation/per-tenant-fine-tuning.md) — per-tenant fine-tunes land in the catalogue with tenant scope.

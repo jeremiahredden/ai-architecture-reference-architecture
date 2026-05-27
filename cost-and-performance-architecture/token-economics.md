@@ -880,12 +880,12 @@ Cost protection in action.
 ## 12. References
 
 **In this folder.**
-- [caching-tiers.md](./caching-tiers.md) *(coming)* — caching as cost lever.
+- [caching-tiers.md](./caching-tiers.md) — caching as cost lever.
 - [tier-routing-for-cost.md](./tier-routing-for-cost.md) *(coming; partial overlap with engineering sibling)* — model tiering.
-- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) *(coming)* — self-host economics.
+- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) — self-host economics.
 - [latency-budgets-and-streaming.md](./latency-budgets-and-streaming.md) — latency dimension; companion.
 - [throughput-and-concurrency.md](./throughput-and-concurrency.md) — concurrency dimension; companion.
-- [cost-incident-playbook.md](./cost-incident-playbook.md) *(coming)* — incident response.
+- [cost-incident-playbook.md](./cost-incident-playbook.md) — incident response.
 
 **Elsewhere in this repo.**
 - [model-strategy/capability-vs-cost-vs-latency-tradeoffs.md](../model-strategy/capability-vs-cost-vs-latency-tradeoffs.md) — comparison framework.

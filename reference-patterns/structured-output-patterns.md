@@ -911,8 +911,8 @@ A team that completes the sequence has structured output that's reliable, evolva
 - [rag-architecture-decision-guide.md](./rag-architecture-decision-guide.md) — structured output enables reliable RAG responses.
 - [agent-topologies.md](./agent-topologies.md) — agent tool calls use structured output.
 - [multi-model-orchestration.md](./multi-model-orchestration.md) — orchestrators consume structured output.
-- [hybrid-retrieval-patterns.md](./hybrid-retrieval-patterns.md) *(coming)* — structured filter inputs use the same patterns.
-- [pattern-anti-patterns.md](./pattern-anti-patterns.md) *(coming)* — monolithic-prompt-as-architecture anti-pattern related.
+- [hybrid-retrieval-patterns.md](./hybrid-retrieval-patterns.md) — structured filter inputs use the same patterns.
+- [pattern-anti-patterns.md](./pattern-anti-patterns.md) — monolithic-prompt-as-architecture anti-pattern related.
 - [guardrails-and-policy-architecture/ai-gateway-pattern.md](../guardrails-and-policy-architecture/ai-gateway-pattern.md) — gateway as the home for schema enforcement.
 - [guardrails-and-policy-architecture/content-moderation-architecture.md](../guardrails-and-policy-architecture/content-moderation-architecture.md) — inline moderation via constrained decoding.
 - Sibling repo: [ai-engineering-reference-architecture/prompt-engineering/structured-output-engineering.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/structured-output-engineering.md) — engineering depth.

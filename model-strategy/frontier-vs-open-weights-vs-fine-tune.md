@@ -426,7 +426,7 @@ Workloads can migrate:
 - Self-hosted → Hosted if open-weight quality plateaus and hosted catches up.
 - Fine-tuned → Hosted if hosted's capability lift over the fine-tune.
 
-The platform supports migrations; per [model-migration-playbook.md](./model-migration-playbook.md) *(coming)*.
+The platform supports migrations; per [model-migration-playbook.md](./model-migration-playbook.md).
 
 ### 6.6 The eval that drives the portfolio
 
@@ -508,7 +508,7 @@ Sometimes the team migrates back:
 - Self-hosted → Hosted: open-weight model is deprecated upstream; hosted's pricing dropped.
 - Fine-tuned → Hosted: hosted's general capability now exceeds the fine-tune's specialised capability.
 
-The platform supports reverse migrations too; per [model-migration-playbook.md](./model-migration-playbook.md) *(coming)*.
+The platform supports reverse migrations too; per [model-migration-playbook.md](./model-migration-playbook.md).
 
 ### 7.6 The migration's risk
 
@@ -736,7 +736,7 @@ Open-weight chosen for cost; quality regression on production traffic ignored.
 
 ### ARCH-FOF-006 — Severity: High
 **Finding.** Migration plans for approach changes informal; future migrations would be risky.
-**Recommendation.** Per section 7; documented migration patterns; per [model-migration-playbook.md](./model-migration-playbook.md) *(coming)*.
+**Recommendation.** Per section 7; documented migration patterns; per [model-migration-playbook.md](./model-migration-playbook.md).
 **Owner.** ai-platform-eng, sprint N+2.
 
 ### ARCH-FOF-007 — Severity: High
@@ -746,12 +746,12 @@ Open-weight chosen for cost; quality regression on production traffic ignored.
 
 ### ARCH-FOF-008 — Severity: Medium
 **Finding.** Fine-tune in production with no re-train schedule; base model upgrades not absorbed.
-**Recommendation.** Per [model-migration-playbook.md](./model-migration-playbook.md) *(coming)*; re-train cadence; deprecation watch.
+**Recommendation.** Per [model-migration-playbook.md](./model-migration-playbook.md); re-train cadence; deprecation watch.
 **Owner.** ml-eng + ai-platform-eng, sprint N+3.
 
 ### ARCH-FOF-009 — Severity: Medium
 **Finding.** Self-hosted models not version-controlled; production might run unverified version.
-**Recommendation.** Per [model-catalogue-and-registry.md](./model-catalogue-and-registry.md) *(coming)*; version pinning.
+**Recommendation.** Per [model-catalogue-and-registry.md](./model-catalogue-and-registry.md); version pinning.
 **Owner.** ai-platform-eng, sprint N+3.
 
 ### ARCH-FOF-010 — Severity: Medium
@@ -832,10 +832,10 @@ A team that completes the sequence has model strategy that's deliberate, justifi
 ## 12. References
 
 - [model-routing-and-tiering.md](./model-routing-and-tiering.md) — tier routing within an approach.
-- [model-catalogue-and-registry.md](./model-catalogue-and-registry.md) *(coming)* — catalogue mechanism.
-- [build-vs-buy-decision.md](./build-vs-buy-decision.md) *(coming)* — broader build-vs-buy framing.
-- [model-migration-playbook.md](./model-migration-playbook.md) *(coming)* — migration depth.
-- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) *(coming)* — three-way tradeoff depth.
+- [model-catalogue-and-registry.md](./model-catalogue-and-registry.md) — catalogue mechanism.
+- [build-vs-buy-decision.md](./build-vs-buy-decision.md) — broader build-vs-buy framing.
+- [model-migration-playbook.md](./model-migration-playbook.md) — migration depth.
+- [capability-vs-cost-vs-latency-tradeoffs.md](./capability-vs-cost-vs-latency-tradeoffs.md) — three-way tradeoff depth.
 - [reference-patterns/multi-model-orchestration.md](../reference-patterns/multi-model-orchestration.md) — orchestration across approaches.
 - [reference-patterns/rag-architecture-decision-guide.md](../reference-patterns/rag-architecture-decision-guide.md) — RAG decisions interact.
 - [reference-patterns/pattern-anti-patterns.md](../reference-patterns/pattern-anti-patterns.md) — anti-pattern #3 (fine-tune as first move).

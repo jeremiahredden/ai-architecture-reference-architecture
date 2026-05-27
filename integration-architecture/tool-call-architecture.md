@@ -911,11 +911,11 @@ A team that completes the sequence has a tool architecture that's right-sized pe
 ## 12. References
 
 - [sync-vs-async-vs-streaming.md](./sync-vs-async-vs-streaming.md) — tool calls follow integration shape decisions.
-- [event-driven-ai-integration.md](./event-driven-ai-integration.md) *(coming)* — event-driven tool patterns.
+- [event-driven-ai-integration.md](./event-driven-ai-integration.md) — event-driven tool patterns.
 - [human-in-the-loop-boundaries.md](./human-in-the-loop-boundaries.md) — HITL tools.
-- [backpressure-and-queueing.md](./backpressure-and-queueing.md) *(coming)* — tool capacity.
-- [integration-failure-patterns.md](./integration-failure-patterns.md) *(coming)* — tool failure handling.
-- [callback-and-webhook-patterns.md](./callback-and-webhook-patterns.md) *(coming)* — async tool results.
+- [backpressure-and-queueing.md](./backpressure-and-queueing.md) — tool capacity.
+- [integration-failure-patterns.md](./integration-failure-patterns.md) — tool failure handling.
+- [callback-and-webhook-patterns.md](./callback-and-webhook-patterns.md) — async tool results.
 - [reference-patterns/agent-topologies.md](../reference-patterns/agent-topologies.md) — agent topologies that affect tool catalogue design.
 - [reference-patterns/multi-model-orchestration.md](../reference-patterns/multi-model-orchestration.md) — orchestration may involve tools.
 - [guardrails-and-policy-architecture/tool-call-authorization.md](../guardrails-and-policy-architecture/tool-call-authorization.md) — authorization layer.

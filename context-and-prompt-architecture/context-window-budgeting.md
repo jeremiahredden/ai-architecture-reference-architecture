@@ -869,7 +869,7 @@ Total ongoing cost: minimal.
 - [chat-history-architecture.md](./chat-history-architecture.md) — history allocation strategies.
 - [long-context-vs-rag.md](./long-context-vs-rag.md) — retrieval vs context decision.
 - [prompt-assembly-patterns.md](./prompt-assembly-patterns.md) — assembly mechanics.
-- [prompt-as-api-discipline.md](./prompt-as-api-discipline.md) *(coming)* — versioning across budget changes.
+- [prompt-as-api-discipline.md](./prompt-as-api-discipline.md) — versioning across budget changes.
 
 **Elsewhere in this repo.**
 - [cost-and-performance-architecture/token-economics.md](../cost-and-performance-architecture/token-economics.md) — cost implications.

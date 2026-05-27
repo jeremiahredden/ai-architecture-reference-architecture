@@ -359,7 +359,7 @@ Per [cost-attribution.md](https://github.com/jeremiahredden/ai-engineering-refer
 
 ### ARCH-PAA-005 — Severity: High
 **Finding.** Streaming response failure mode (mid-stream errors) must not leave incomplete answers visible.
-**Recommendation.** Per [integration-architecture/integration-failure-patterns.md](../integration-architecture) *(coming)*; mid-stream error → final marker → clean failure UX.
+**Recommendation.** Per [integration-architecture/integration-failure-patterns.md](../integration-architecture); mid-stream error → final marker → clean failure UX.
 **Owner.** patient-api-team, sprint N+2.
 
 ### ARCH-PAA-006 — Severity: High

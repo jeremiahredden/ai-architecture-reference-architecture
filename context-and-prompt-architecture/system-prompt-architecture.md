@@ -939,8 +939,8 @@ After Meridian's decomposition, the discipline spread:
 - [prompt-assembly-patterns.md](./prompt-assembly-patterns.md) — assembly mechanics.
 - [chat-history-architecture.md](./chat-history-architecture.md) — chat history is another context allocation.
 - [long-context-vs-rag.md](./long-context-vs-rag.md) — context-window decision framework.
-- [prompt-as-api-discipline.md](./prompt-as-api-discipline.md) *(coming)* — versioning prompts.
-- [few-shot-vs-fine-tune-vs-system-prompt.md](./few-shot-vs-fine-tune-vs-system-prompt.md) *(coming)* — when each approach.
+- [prompt-as-api-discipline.md](./prompt-as-api-discipline.md) — versioning prompts.
+- [few-shot-vs-fine-tune-vs-system-prompt.md](./few-shot-vs-fine-tune-vs-system-prompt.md) — when each approach.
 
 **Elsewhere in this repo.**
 - [multi-tenancy-and-isolation/per-tenant-prompt-and-context.md](../multi-tenancy-and-isolation/per-tenant-prompt-and-context.md) — per-tenant mechanics.

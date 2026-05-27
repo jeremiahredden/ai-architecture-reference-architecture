@@ -1,6 +1,6 @@
 # Few-Shot vs Fine-Tune vs System Prompt
 
-> **Audience.** Architects whose workload needs to specialize a model and they're choosing between adding few-shot examples, fine-tuning, or expanding the system prompt. Tech leads whose few-shot examples have grown to 30 and they're wondering if that's reasonable. Anyone whose vendor pitched fine-tuning and they're not sure if it's right. **Scope.** The *architectural* framework for when each approach fits: few-shot examples (flexible, expensive per call), fine-tune (cheap per call, slow to update), system prompt (cheap, hits ceiling); the decision tree; migration paths between them. Not the engineering of fine-tuning (see sibling [model-lifecycle/fine-tuning-operations.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/model-lifecycle/fine-tuning-operations.md) *(coming)*). Not per-tenant fine-tuning (see [multi-tenancy-and-isolation/per-tenant-fine-tuning.md](../multi-tenancy-and-isolation/per-tenant-fine-tuning.md)). **Worked client.** Meridian Health.
+> **Audience.** Architects whose workload needs to specialize a model and they're choosing between adding few-shot examples, fine-tuning, or expanding the system prompt. Tech leads whose few-shot examples have grown to 30 and they're wondering if that's reasonable. Anyone whose vendor pitched fine-tuning and they're not sure if it's right. **Scope.** The *architectural* framework for when each approach fits: few-shot examples (flexible, expensive per call), fine-tune (cheap per call, slow to update), system prompt (cheap, hits ceiling); the decision tree; migration paths between them. Not the engineering of fine-tuning (see sibling [model-lifecycle/fine-tuning-operations.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/model-lifecycle/fine-tuning-operations.md)). Not per-tenant fine-tuning (see [multi-tenancy-and-isolation/per-tenant-fine-tuning.md](../multi-tenancy-and-isolation/per-tenant-fine-tuning.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -897,7 +897,7 @@ Mixed; per-workload.
 **Sibling repos.**
 - [ai-engineering-reference-architecture / prompt-engineering / few-shot-engineering.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/few-shot-engineering.md) — few-shot engineering.
 - [ai-engineering-reference-architecture / prompt-engineering / structured-output-engineering.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/structured-output-engineering.md) — structured output.
-- [ai-engineering-reference-architecture / model-lifecycle / fine-tuning-operations.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/model-lifecycle/fine-tuning-operations.md) *(coming)* — fine-tune operations.
+- [ai-engineering-reference-architecture / model-lifecycle / fine-tuning-operations.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/model-lifecycle/fine-tuning-operations.md) — fine-tune operations.
 
 **External.**
 - LoRA paper (Hu et al., 2021).

@@ -481,7 +481,7 @@ If the team needs to move from one provider to another (deprecation, cost, quali
 - Per-feature rollout (start with low-stakes; graduate).
 - Tier-routing layer absorbs the switch.
 
-Per [model-migration-playbook.md](../model-strategy/model-migration-playbook.md) *(coming)* in model-strategy.
+Per [model-migration-playbook.md](../model-strategy/model-migration-playbook.md) in model-strategy.
 
 ---
 
@@ -872,10 +872,10 @@ A team that completes the sequence has orchestration that's cost-controlled, res
 - [rag-architecture-decision-guide.md](./rag-architecture-decision-guide.md) — retrieval-side decisions that interact with model orchestration.
 - [agent-topologies.md](./agent-topologies.md) — agent topology choices affect orchestration (supervisor/worker = per-role tier routing).
 - [structured-output-patterns.md](./structured-output-patterns.md) — structured output works with tier routing.
-- [hybrid-retrieval-patterns.md](./hybrid-retrieval-patterns.md) *(coming)* — retrieval patterns alongside.
-- [pattern-anti-patterns.md](./pattern-anti-patterns.md) *(coming)* — pattern-level anti-patterns.
+- [hybrid-retrieval-patterns.md](./hybrid-retrieval-patterns.md) — retrieval patterns alongside.
+- [pattern-anti-patterns.md](./pattern-anti-patterns.md) — pattern-level anti-patterns.
 - [model-strategy/model-routing-and-tiering.md](../model-strategy/model-routing-and-tiering.md) — the model-strategy depth on routing.
-- [model-strategy/model-catalogue-and-registry.md](../model-strategy/model-catalogue-and-registry.md) *(coming)* — catalogue of approved models that the portfolio draws from.
+- [model-strategy/model-catalogue-and-registry.md](../model-strategy/model-catalogue-and-registry.md) — catalogue of approved models that the portfolio draws from.
 - [guardrails-and-policy-architecture/ai-gateway-pattern.md](../guardrails-and-policy-architecture/ai-gateway-pattern.md) — gateway is router's home.
 - [guardrails-and-policy-architecture/policy-as-code-for-ai.md](../guardrails-and-policy-architecture/policy-as-code-for-ai.md) — routing decisions as policy.
 - Sibling repo: [ai-engineering-reference-architecture/agent-engineering/agent-cost-control.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/agent-engineering/agent-cost-control.md) — agent-side tier routing.

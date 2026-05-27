@@ -811,10 +811,10 @@ A team that completes the sequence has isolation that's enforceable, verifiable,
 
 - [isolation-models.md](./isolation-models.md) — tenant isolation models at the data layer.
 - [per-tenant-vector-namespacing.md](./per-tenant-vector-namespacing.md) — vector store isolation.
-- [per-tenant-prompt-and-context.md](./per-tenant-prompt-and-context.md) *(coming)* — prompt-level isolation.
-- [noisy-neighbor-mitigation.md](./noisy-neighbor-mitigation.md) *(coming)* — capacity isolation.
-- [per-tenant-fine-tuning.md](./per-tenant-fine-tuning.md) *(coming)* — fine-tune isolation.
-- [data-residency-patterns.md](./data-residency-patterns.md) *(coming)* — geographic data isolation.
+- [per-tenant-prompt-and-context.md](./per-tenant-prompt-and-context.md) — prompt-level isolation.
+- [noisy-neighbor-mitigation.md](./noisy-neighbor-mitigation.md) — capacity isolation.
+- [per-tenant-fine-tuning.md](./per-tenant-fine-tuning.md) — fine-tune isolation.
+- [data-residency-patterns.md](./data-residency-patterns.md) — geographic data isolation.
 - [guardrails-and-policy-architecture/retrieval-scope-enforcement.md](../guardrails-and-policy-architecture/retrieval-scope-enforcement.md) — retrieval-side scope enforcement.
 - [guardrails-and-policy-architecture/tool-call-authorization.md](../guardrails-and-policy-architecture/tool-call-authorization.md) — tool-side tenant scope.
 - [guardrails-and-policy-architecture/content-moderation-architecture.md](../guardrails-and-policy-architecture/content-moderation-architecture.md) — output filtering.

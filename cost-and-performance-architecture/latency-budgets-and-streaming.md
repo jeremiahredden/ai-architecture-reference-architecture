@@ -930,8 +930,8 @@ Both workloads pass the user-experience bar through different mechanisms.
 **In this folder.**
 - [token-economics.md](./token-economics.md) — cost dimension (companion).
 - [throughput-and-concurrency.md](./throughput-and-concurrency.md) — concurrency under latency constraints.
-- [caching-tiers.md](./caching-tiers.md) *(coming)* — caching as latency lever.
-- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) *(coming)* — self-hosted latency profile.
+- [caching-tiers.md](./caching-tiers.md) — caching as latency lever.
+- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) — self-hosted latency profile.
 
 **Elsewhere in this repo.**
 - [integration-architecture/sync-vs-async-vs-streaming.md](../integration-architecture/sync-vs-async-vs-streaming.md) — integration-shape decision.

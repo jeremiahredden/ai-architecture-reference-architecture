@@ -929,11 +929,11 @@ A team that completes the sequence has HITL that adds genuine value at appropria
 ## 12. References
 
 - [sync-vs-async-vs-streaming.md](./sync-vs-async-vs-streaming.md) — async patterns for HITL.
-- [tool-call-architecture.md](./tool-call-architecture.md) *(coming)* — tool authorization can require HITL.
-- [event-driven-ai-integration.md](./event-driven-ai-integration.md) *(coming)* — events drive HITL queues.
-- [backpressure-and-queueing.md](./backpressure-and-queueing.md) *(coming)* — queue management for HITL.
-- [callback-and-webhook-patterns.md](./callback-and-webhook-patterns.md) *(coming)* — async HITL responses.
-- [integration-failure-patterns.md](./integration-failure-patterns.md) *(coming)* — HITL fallback if capacity insufficient.
+- [tool-call-architecture.md](./tool-call-architecture.md) — tool authorization can require HITL.
+- [event-driven-ai-integration.md](./event-driven-ai-integration.md) — events drive HITL queues.
+- [backpressure-and-queueing.md](./backpressure-and-queueing.md) — queue management for HITL.
+- [callback-and-webhook-patterns.md](./callback-and-webhook-patterns.md) — async HITL responses.
+- [integration-failure-patterns.md](./integration-failure-patterns.md) — HITL fallback if capacity insufficient.
 - [guardrails-and-policy-architecture/content-moderation-architecture.md](../guardrails-and-policy-architecture/content-moderation-architecture.md) — HITL in moderation.
 - [guardrails-and-policy-architecture/refusal-and-escalation-design.md](../guardrails-and-policy-architecture/refusal-and-escalation-design.md) — refusal/escalation interacts with HITL routing.
 - [guardrails-and-policy-architecture/tool-call-authorization.md](../guardrails-and-policy-architecture/tool-call-authorization.md) — HITL on tool authorization.

@@ -794,7 +794,7 @@ Lesson: threshold changes require eval gate.
 - [token-economics.md](./token-economics.md) — caching as cost lever.
 - [latency-budgets-and-streaming.md](./latency-budgets-and-streaming.md) — cache hit reduces latency.
 - [throughput-and-concurrency.md](./throughput-and-concurrency.md) — caching reduces provider load.
-- [tier-routing-for-cost.md](./tier-routing-for-cost.md) *(coming)* — caching composes with routing.
+- [tier-routing-for-cost.md](./tier-routing-for-cost.md) — caching composes with routing.
 - [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) — self-host capacity considerations.
 
 **Elsewhere in this repo.**

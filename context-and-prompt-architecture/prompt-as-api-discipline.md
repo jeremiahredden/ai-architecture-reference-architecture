@@ -867,7 +867,7 @@ Cultural norm; not just process.
 - [ai-engineering-reference-architecture / prompt-engineering / prompt-versioning.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/prompt-versioning.md) — engineering-side versioning.
 - [ai-engineering-reference-architecture / prompt-engineering / prompts-as-code-discipline.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/prompts-as-code-discipline.md) — engineering discipline.
 - [ai-engineering-reference-architecture / prompt-engineering / prompt-as-api-contract.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/prompt-engineering/prompt-as-api-contract.md) — engineering API contract.
-- [ai-engineering-reference-architecture / cicd-and-eval-gates / prompt-version-pinning.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/cicd-and-eval-gates/prompt-version-pinning.md) *(coming)* — release-time pinning.
+- [ai-engineering-reference-architecture / cicd-and-eval-gates / prompt-version-pinning.md](https://github.com/jeremiahredden/ai-engineering-reference-architecture/blob/main/cicd-and-eval-gates/prompt-version-pinning.md) — release-time pinning.
 
 **External.**
 - semver.org — versioning specification.

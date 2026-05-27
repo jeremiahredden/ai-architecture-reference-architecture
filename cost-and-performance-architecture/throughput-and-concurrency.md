@@ -854,8 +854,8 @@ Total: ~0.2 FTE / month for throughput / capacity / concurrency management.
 **In this folder.**
 - [token-economics.md](./token-economics.md) — cost dimension (companion).
 - [latency-budgets-and-streaming.md](./latency-budgets-and-streaming.md) — latency dimension (companion).
-- [caching-tiers.md](./caching-tiers.md) *(coming)* — caching benefit.
-- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) *(coming)* — self-hosted detail.
+- [caching-tiers.md](./caching-tiers.md) — caching benefit.
+- [gpu-strategy-for-self-hosted.md](./gpu-strategy-for-self-hosted.md) — self-hosted detail.
 
 **Elsewhere in this repo.**
 - [integration-architecture/backpressure-and-queueing.md](../integration-architecture/backpressure-and-queueing.md) — queue topology.
